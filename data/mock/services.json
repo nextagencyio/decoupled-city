@@ -1,0 +1,189 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-permits",
+          "title": "Building Permits",
+          "path": "/services/building-permits",
+          "body": {
+            "processed": "<p>Apply for building permits for new construction, renovations, additions, and demolition projects within the City of Maplewood. Our building inspectors ensure all projects comply with local building codes and safety standards.</p><h2>Permit Types</h2><ul><li>New construction permits</li><li>Renovation and alteration permits</li><li>Electrical, plumbing, and mechanical permits</li><li>Demolition permits</li><li>Sign permits</li></ul><h2>Processing Time</h2><p>Standard permits are processed within 5-10 business days. Expedited review is available for an additional fee.</p>",
+            "summary": "Apply for building permits for new construction, renovations, additions, and demolition projects within the City of Maplewood. Our building inspectors ensure all projects comply with local building co"
+          },
+          "department": [
+            {
+              "id": "community-development",
+              "name": "community-development"
+            }
+          ],
+          "onlineUrl": "https://permits.maplewood.gov",
+          "eligibility": "Property owners and licensed contractors",
+          "fee": "Varies by project scope",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "Building Permits",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-water",
+          "title": "Water & Sewer Services",
+          "path": "/services/water-utilities",
+          "body": {
+            "processed": "<p>The City of Maplewood provides safe, clean drinking water and reliable sewer services to all residents and businesses. Our water treatment plant processes over 10 million gallons daily, meeting or exceeding all EPA standards.</p><h2>Services Available</h2><ul><li>Start or stop water service</li><li>Pay your utility bill online</li><li>Report a water main break</li><li>Request a water quality test</li><li>Apply for sewer connection</li></ul>",
+            "summary": "The City of Maplewood provides safe, clean drinking water and reliable sewer services to all residents and businesses. Our water treatment plant processes over 10 million gallons daily, meeting or exc"
+          },
+          "department": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "onlineUrl": "https://utilities.maplewood.gov",
+          "eligibility": "All Maplewood residents and businesses",
+          "fee": "Based on usage - see rate schedule",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+            "alt": "Water and Sewer Services",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-parks-rental",
+          "title": "Park & Facility Rentals",
+          "path": "/services/park-facility-rentals",
+          "body": {
+            "processed": "<p>Reserve city parks, pavilions, community centers, and athletic facilities for your next event. Whether you are planning a birthday party, corporate retreat, or community gathering, we have spaces to fit your needs.</p><h2>Available Facilities</h2><ul><li>Park pavilions and picnic areas</li><li>Community center banquet halls</li><li>Athletic fields and courts</li><li>Swimming pool party rentals</li><li>Amphitheater and outdoor stages</li></ul>",
+            "summary": "Reserve city parks, pavilions, community centers, and athletic facilities for your next event. Whether you are planning a birthday party, corporate retreat, or community gathering, we have spaces to f"
+          },
+          "department": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "onlineUrl": "https://rentals.maplewood.gov",
+          "eligibility": "Open to all - resident discounts available",
+          "fee": "$50 - $500 depending on facility",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=800&q=80",
+            "alt": "Park and Facility Rentals",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-business-license",
+          "title": "Business License Application",
+          "path": "/services/business-license",
+          "body": {
+            "processed": "<p>All businesses operating within Maplewood city limits are required to obtain a business license. Our streamlined application process makes it easy to get started or renew your existing license.</p><h2>License Types</h2><ul><li>General business license</li><li>Home occupation permit</li><li>Food service license</li><li>Alcohol beverage license</li><li>Special event vendor permit</li></ul>",
+            "summary": "All businesses operating within Maplewood city limits are required to obtain a business license. Our streamlined application process makes it easy to get started or renew your existing license.License"
+          },
+          "department": [
+            {
+              "id": "finance-administration",
+              "name": "finance-administration"
+            }
+          ],
+          "onlineUrl": "https://business.maplewood.gov",
+          "eligibility": "Business owners operating in Maplewood",
+          "fee": "$75 - $500 annually",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
+            "alt": "Business License Application",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

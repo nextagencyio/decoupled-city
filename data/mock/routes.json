@@ -1,0 +1,1045 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to City of Maplewood",
+          "path": "/homepage",
+          "heroTitle": "Serving Our Community",
+          "heroSubtitle": "Building a Better Maplewood Together",
+          "heroDescription": {
+            "processed": "<p>The City of Maplewood is committed to providing high-quality services, maintaining safe neighborhoods, and fostering a vibrant community for all residents.</p>",
+            "summary": "The City of Maplewood is committed to providing high-quality services, maintaining safe neighborhoods, and fostering a vibrant community for all residents."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-population",
+              "title": "",
+              "number": "85,000",
+              "label": "Residents"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-parks",
+              "title": "",
+              "number": "42",
+              "label": "City Parks"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-departments",
+              "title": "",
+              "number": "18",
+              "label": "Departments"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-services",
+              "title": "",
+              "number": "150+",
+              "label": "Online Services"
+            }
+          ],
+          "featuredDepartmentsTitle": "City Departments",
+          "ctaTitle": "How Can We Help?",
+          "ctaDescription": {
+            "processed": "<p>Have a question, concern, or need to report an issue? We are here to serve you. Reach out to our team for assistance.</p>",
+            "summary": "Have a question, concern, or need to report an issue? We are here to serve you. Reach out to our team for assistance."
+          },
+          "ctaPrimary": "Report an Issue",
+          "ctaSecondary": "Contact Us"
+        }
+      }
+    }
+  },
+  "/departments/public-works": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-works",
+          "title": "Public Works",
+          "path": "/departments/public-works",
+          "body": {
+            "processed": "<p>The Department of Public Works maintains and improves the city's infrastructure, including roads, bridges, water systems, and stormwater management. Our team of engineers and field crews work year-round to keep Maplewood safe and functional.</p><h2>Key Responsibilities</h2><ul><li>Road maintenance and repair</li><li>Water and sewer systems</li><li>Stormwater management</li><li>Snow removal and street cleaning</li><li>Capital improvement projects</li></ul>",
+            "summary": "The Department of Public Works maintains and improves the city's infrastructure, including roads, bridges, water systems, and stormwater management. Our team of engineers and field crews work year-rou"
+          },
+          "phone": "(555) 234-5001",
+          "email": "publicworks@maplewood.gov",
+          "location": "200 Main Street, Suite 100",
+          "hours": "Monday - Friday, 7:00 AM - 4:00 PM",
+          "departmentCategory": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+            "alt": "Public Works Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/parks-recreation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-parks-rec",
+          "title": "Parks & Recreation",
+          "path": "/departments/parks-recreation",
+          "body": {
+            "processed": "<p>The Parks & Recreation Department manages over 42 parks, community centers, athletic facilities, and recreational programs throughout Maplewood. We are dedicated to enhancing quality of life through accessible outdoor spaces and engaging programs for all ages.</p><h2>Facilities</h2><ul><li>Community centers and pools</li><li>Sports fields and courts</li><li>Nature trails and greenways</li><li>Playgrounds and splash pads</li><li>Senior activity centers</li></ul>",
+            "summary": "The Parks & Recreation Department manages over 42 parks, community centers, athletic facilities, and recreational programs throughout Maplewood. We are dedicated to enhancing quality of life through a"
+          },
+          "phone": "(555) 234-5002",
+          "email": "parks@maplewood.gov",
+          "location": "300 Oak Avenue",
+          "hours": "Monday - Friday, 8:00 AM - 5:00 PM",
+          "departmentCategory": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=800&q=80",
+            "alt": "Parks and Recreation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/public-safety": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-safety",
+          "title": "Public Safety",
+          "path": "/departments/public-safety",
+          "body": {
+            "processed": "<p>The Department of Public Safety oversees police, fire, and emergency services for the City of Maplewood. Our mission is to protect lives, property, and the rights of all people through professional law enforcement and emergency response.</p><h2>Divisions</h2><ul><li>Police Department</li><li>Fire Department</li><li>Emergency Management</li><li>Code Enforcement</li><li>Animal Control</li></ul>",
+            "summary": "The Department of Public Safety oversees police, fire, and emergency services for the City of Maplewood. Our mission is to protect lives, property, and the rights of all people through professional la"
+          },
+          "phone": "(555) 234-5003",
+          "email": "publicsafety@maplewood.gov",
+          "location": "150 Civic Center Drive",
+          "hours": "24/7 Emergency Services",
+          "departmentCategory": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
+            "alt": "Public Safety Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/community-development": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-community-dev",
+          "title": "Community Development",
+          "path": "/departments/community-development",
+          "body": {
+            "processed": "<p>The Community Development Department guides the physical growth and revitalization of Maplewood through planning, zoning, building inspection, and economic development initiatives. We work to create a sustainable, livable community.</p><h2>Services</h2><ul><li>Building permits and inspections</li><li>Zoning and land use planning</li><li>Historic preservation</li><li>Economic development</li><li>Housing programs</li></ul>",
+            "summary": "The Community Development Department guides the physical growth and revitalization of Maplewood through planning, zoning, building inspection, and economic development initiatives. We work to create a"
+          },
+          "phone": "(555) 234-5004",
+          "email": "development@maplewood.gov",
+          "location": "200 Main Street, Suite 200",
+          "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+          "departmentCategory": [
+            {
+              "id": "community-development",
+              "name": "community-development"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+            "alt": "Community Development",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/mayor-patricia-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-mayor",
+          "title": "Mayor Patricia Chen",
+          "path": "/officials/mayor-patricia-chen",
+          "body": {
+            "processed": "<p>Mayor Patricia Chen has served the City of Maplewood since 2020. She brings over 15 years of public service experience and is dedicated to transparent governance, sustainable development, and community engagement. Under her leadership, the city has invested heavily in infrastructure improvements and green initiatives.</p>",
+            "summary": "Mayor Patricia Chen has served the City of Maplewood since 2020. She brings over 15 years of public service experience and is dedicated to transparent governance, sustainable development, and communit"
+          },
+          "position": "Mayor",
+          "department": [
+            {
+              "id": "city-manager",
+              "name": "city-manager"
+            }
+          ],
+          "email": "mayor@maplewood.gov",
+          "phone": "(555) 234-5000",
+          "office": "City Hall, Suite 300",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Mayor Patricia Chen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/city-manager-david-rodriguez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-manager",
+          "title": "David Rodriguez",
+          "path": "/officials/city-manager-david-rodriguez",
+          "body": {
+            "processed": "<p>David Rodriguez serves as City Manager, overseeing the daily operations of all city departments. With a background in public administration and urban planning, he brings a strategic approach to municipal governance and a commitment to operational excellence.</p>",
+            "summary": "David Rodriguez serves as City Manager, overseeing the daily operations of all city departments. With a background in public administration and urban planning, he brings a strategic approach to munici"
+          },
+          "position": "City Manager",
+          "department": [
+            {
+              "id": "city-manager",
+              "name": "city-manager"
+            }
+          ],
+          "email": "drodriguez@maplewood.gov",
+          "phone": "(555) 234-5010",
+          "office": "City Hall, Suite 250",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "City Manager David Rodriguez",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/council-member-sarah-thompson": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-council-1",
+          "title": "Sarah Thompson",
+          "path": "/officials/council-member-sarah-thompson",
+          "body": {
+            "processed": "<p>Council Member Sarah Thompson represents District 1 on the Maplewood City Council. She is a longtime resident and advocate for neighborhood revitalization, affordable housing, and improved public transit. She chairs the Finance Committee and serves on the Public Works Committee.</p>",
+            "summary": "Council Member Sarah Thompson represents District 1 on the Maplewood City Council. She is a longtime resident and advocate for neighborhood revitalization, affordable housing, and improved public tran"
+          },
+          "position": "City Council Member, District 1",
+          "department": [
+            {
+              "id": "city-manager",
+              "name": "city-manager"
+            }
+          ],
+          "email": "sthompson@maplewood.gov",
+          "phone": "(555) 234-5020",
+          "office": "City Hall, Suite 210",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Council Member Sarah Thompson",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/officials/fire-chief-james-mitchell": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeOfficial",
+          "id": "official-fire-chief",
+          "title": "James Mitchell",
+          "path": "/officials/fire-chief-james-mitchell",
+          "body": {
+            "processed": "<p>Fire Chief James Mitchell has led the Maplewood Fire Department for over 8 years. A 25-year veteran of firefighting, Chief Mitchell has modernized the department's equipment and training programs while maintaining the highest standards of emergency response.</p>",
+            "summary": "Fire Chief James Mitchell has led the Maplewood Fire Department for over 8 years. A 25-year veteran of firefighting, Chief Mitchell has modernized the department's equipment and training programs whil"
+          },
+          "position": "Fire Chief",
+          "department": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "email": "jmitchell@maplewood.gov",
+          "phone": "(555) 234-5030",
+          "office": "Fire Station 1, 400 Elm Street",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Fire Chief James Mitchell",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/building-permits": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-permits",
+          "title": "Building Permits",
+          "path": "/services/building-permits",
+          "body": {
+            "processed": "<p>Apply for building permits for new construction, renovations, additions, and demolition projects within the City of Maplewood. Our building inspectors ensure all projects comply with local building codes and safety standards.</p><h2>Permit Types</h2><ul><li>New construction permits</li><li>Renovation and alteration permits</li><li>Electrical, plumbing, and mechanical permits</li><li>Demolition permits</li><li>Sign permits</li></ul><h2>Processing Time</h2><p>Standard permits are processed within 5-10 business days. Expedited review is available for an additional fee.</p>",
+            "summary": "Apply for building permits for new construction, renovations, additions, and demolition projects within the City of Maplewood. Our building inspectors ensure all projects comply with local building co"
+          },
+          "department": [
+            {
+              "id": "community-development",
+              "name": "community-development"
+            }
+          ],
+          "onlineUrl": "https://permits.maplewood.gov",
+          "eligibility": "Property owners and licensed contractors",
+          "fee": "Varies by project scope",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "Building Permits",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/water-utilities": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-water",
+          "title": "Water & Sewer Services",
+          "path": "/services/water-utilities",
+          "body": {
+            "processed": "<p>The City of Maplewood provides safe, clean drinking water and reliable sewer services to all residents and businesses. Our water treatment plant processes over 10 million gallons daily, meeting or exceeding all EPA standards.</p><h2>Services Available</h2><ul><li>Start or stop water service</li><li>Pay your utility bill online</li><li>Report a water main break</li><li>Request a water quality test</li><li>Apply for sewer connection</li></ul>",
+            "summary": "The City of Maplewood provides safe, clean drinking water and reliable sewer services to all residents and businesses. Our water treatment plant processes over 10 million gallons daily, meeting or exc"
+          },
+          "department": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "onlineUrl": "https://utilities.maplewood.gov",
+          "eligibility": "All Maplewood residents and businesses",
+          "fee": "Based on usage - see rate schedule",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+            "alt": "Water and Sewer Services",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/park-facility-rentals": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-parks-rental",
+          "title": "Park & Facility Rentals",
+          "path": "/services/park-facility-rentals",
+          "body": {
+            "processed": "<p>Reserve city parks, pavilions, community centers, and athletic facilities for your next event. Whether you are planning a birthday party, corporate retreat, or community gathering, we have spaces to fit your needs.</p><h2>Available Facilities</h2><ul><li>Park pavilions and picnic areas</li><li>Community center banquet halls</li><li>Athletic fields and courts</li><li>Swimming pool party rentals</li><li>Amphitheater and outdoor stages</li></ul>",
+            "summary": "Reserve city parks, pavilions, community centers, and athletic facilities for your next event. Whether you are planning a birthday party, corporate retreat, or community gathering, we have spaces to f"
+          },
+          "department": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "onlineUrl": "https://rentals.maplewood.gov",
+          "eligibility": "Open to all - resident discounts available",
+          "fee": "$50 - $500 depending on facility",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=800&q=80",
+            "alt": "Park and Facility Rentals",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/business-license": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-business-license",
+          "title": "Business License Application",
+          "path": "/services/business-license",
+          "body": {
+            "processed": "<p>All businesses operating within Maplewood city limits are required to obtain a business license. Our streamlined application process makes it easy to get started or renew your existing license.</p><h2>License Types</h2><ul><li>General business license</li><li>Home occupation permit</li><li>Food service license</li><li>Alcohol beverage license</li><li>Special event vendor permit</li></ul>",
+            "summary": "All businesses operating within Maplewood city limits are required to obtain a business license. Our streamlined application process makes it easy to get started or renew your existing license.License"
+          },
+          "department": [
+            {
+              "id": "finance-administration",
+              "name": "finance-administration"
+            }
+          ],
+          "onlineUrl": "https://business.maplewood.gov",
+          "eligibility": "Business owners operating in Maplewood",
+          "fee": "$75 - $500 annually",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
+            "alt": "Business License Application",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/meetings/city-council-march-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMeeting",
+          "id": "meeting-council-march",
+          "title": "City Council Regular Meeting - March 2026",
+          "path": "/meetings/city-council-march-2026",
+          "body": {
+            "processed": "<p>Regular meeting of the Maplewood City Council. The agenda includes the FY2027 budget discussion, updates on the Main Street revitalization project, and a public hearing on proposed zoning changes in the downtown district.</p><h2>Agenda Highlights</h2><ul><li>Approval of previous meeting minutes</li><li>FY2027 budget first reading</li><li>Main Street project update presentation</li><li>Public hearing: Downtown zoning amendment</li><li>Resolution on park improvement bonds</li><li>Public comment period</li></ul>",
+            "summary": "Regular meeting of the Maplewood City Council. The agenda includes the FY2027 budget discussion, updates on the Main Street revitalization project, and a public hearing on proposed zoning changes in t"
+          },
+          "meetingDate": {
+            "timestamp": 1773874800
+          },
+          "endDate": {
+            "timestamp": 1773885600
+          },
+          "location": "City Hall Council Chambers, 200 Main Street",
+          "meetingType": [
+            {
+              "id": "city-council",
+              "name": "city-council"
+            }
+          ],
+          "agendaUrl": "https://maplewood.gov/agendas/council-march-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&q=80",
+            "alt": "City Council Meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/meetings/planning-commission-april-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMeeting",
+          "id": "meeting-planning",
+          "title": "Planning Commission Meeting - April 2026",
+          "path": "/meetings/planning-commission-april-2026",
+          "body": {
+            "processed": "<p>The Planning Commission will review several development proposals, including a mixed-use project on Commerce Boulevard and a residential subdivision in the Northfield area. Public input is encouraged on all agenda items.</p><h2>Items for Review</h2><ul><li>Site plan review: Commerce Boulevard mixed-use development</li><li>Preliminary plat: Northfield Estates subdivision</li><li>Variance request: 450 Oak Street setback modification</li><li>Comprehensive plan amendment discussion</li></ul>",
+            "summary": "The Planning Commission will review several development proposals, including a mixed-use project on Commerce Boulevard and a residential subdivision in the Northfield area. Public input is encouraged "
+          },
+          "meetingDate": {
+            "timestamp": 1775692800
+          },
+          "endDate": {
+            "timestamp": 1775700000
+          },
+          "location": "City Hall Conference Room A, 200 Main Street",
+          "meetingType": [
+            {
+              "id": "planning-commission",
+              "name": "planning-commission"
+            }
+          ],
+          "agendaUrl": "https://maplewood.gov/agendas/planning-april-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+            "alt": "Planning Commission Meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/meetings/town-hall-spring-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMeeting",
+          "id": "meeting-town-hall",
+          "title": "Spring Community Town Hall",
+          "path": "/meetings/town-hall-spring-2026",
+          "body": {
+            "processed": "<p>Join Mayor Chen and city staff for a community town hall meeting to discuss priorities for the upcoming year. Topics include infrastructure improvements, public safety initiatives, and the new city parks master plan. Light refreshments will be provided.</p><h2>Discussion Topics</h2><ul><li>Infrastructure investment priorities</li><li>Community policing initiatives</li><li>Parks master plan overview</li><li>Open question and answer session</li></ul>",
+            "summary": "Join Mayor Chen and city staff for a community town hall meeting to discuss priorities for the upcoming year. Topics include infrastructure improvements, public safety initiatives, and the new city pa"
+          },
+          "meetingDate": {
+            "timestamp": 1776900600
+          },
+          "endDate": {
+            "timestamp": 1776907800
+          },
+          "location": "Maplewood Community Center, 500 Maple Drive",
+          "meetingType": [
+            {
+              "id": "town-hall",
+              "name": "town-hall"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Spring Community Town Hall",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/main-street-renovation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-road-project",
+          "title": "Main Street Renovation Project Breaks Ground",
+          "path": "/news/main-street-renovation",
+          "body": {
+            "processed": "<p>The City of Maplewood has officially broken ground on the $12 million Main Street renovation project. The project will transform the downtown corridor with new sidewalks, bike lanes, improved lighting, and upgraded water infrastructure.</p><p>\"This project represents our commitment to creating a vibrant, walkable downtown that serves residents and attracts businesses,\" said Mayor Patricia Chen at the groundbreaking ceremony.</p><p>Construction is expected to take 18 months, with phased closures to minimize disruption to local businesses. The project is funded through a combination of federal infrastructure grants and city bonds.</p>",
+            "summary": "The City of Maplewood has officially broken ground on the $12 million Main Street renovation project. The project will transform the downtown corridor with new sidewalks, bike lanes, improved lighting"
+          },
+          "category": [
+            {
+              "id": "infrastructure",
+              "name": "infrastructure"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=800&q=80",
+            "alt": "Main Street Renovation Project",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/fy2027-budget-proposal": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-budget",
+          "title": "City Releases FY2027 Proposed Budget",
+          "path": "/news/fy2027-budget-proposal",
+          "body": {
+            "processed": "<p>City Manager David Rodriguez has presented the proposed FY2027 budget of $142 million to the City Council. The budget prioritizes public safety, infrastructure maintenance, and parks improvements while maintaining the current tax rate.</p><p>Key highlights include funding for 12 new police officers, a $5 million road resurfacing program, and $3.2 million for the new Riverside Park renovation. Public comment on the budget will be accepted through April 30.</p><p>Budget documents are available for review at City Hall, the public library, and online at the city website.</p>",
+            "summary": "City Manager David Rodriguez has presented the proposed FY2027 budget of $142 million to the City Council. The budget prioritizes public safety, infrastructure maintenance, and parks improvements whil"
+          },
+          "category": [
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+            "alt": "FY2027 Budget Proposal",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/riverside-park-grand-opening": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-park-opening",
+          "title": "Riverside Park Grand Opening Celebration",
+          "path": "/news/riverside-park-grand-opening",
+          "body": {
+            "processed": "<p>The City of Maplewood invites all residents to the grand opening celebration of the newly renovated Riverside Park on Saturday, May 15. The $3.2 million renovation includes new playgrounds, a splash pad, walking trails, and an outdoor amphitheater.</p><p>The celebration will feature live music, food trucks, kids activities, and guided tours of the new facilities. Free parking is available at the community center lot.</p>",
+            "summary": "The City of Maplewood invites all residents to the grand opening celebration of the newly renovated Riverside Park on Saturday, May 15. The $3.2 million renovation includes new playgrounds, a splash p"
+          },
+          "category": [
+            {
+              "id": "community-events",
+              "name": "community-events"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=800&q=80",
+            "alt": "Riverside Park Grand Opening",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About the City of Maplewood",
+          "path": "/about",
+          "body": {
+            "processed": "<p>The City of Maplewood was incorporated in 1887 and has grown into a thriving community of over 85,000 residents. Located in the heart of the region, Maplewood offers a unique blend of small-town charm and modern amenities.</p><h2>Our Mission</h2><p>To provide exceptional public services that enhance the quality of life for all Maplewood residents, foster economic vitality, and ensure a safe, sustainable community for future generations.</p><h2>Our Values</h2><ul><li><strong>Transparency</strong> - We conduct the public's business openly and honestly.</li><li><strong>Accountability</strong> - We are responsible stewards of public resources.</li><li><strong>Excellence</strong> - We strive for the highest standards in public service.</li><li><strong>Inclusivity</strong> - We serve all members of our diverse community equitably.</li></ul><h2>City Government</h2><p>Maplewood operates under a council-manager form of government. The City Council consists of the Mayor and six Council Members elected by district. The City Manager is appointed by the Council to oversee daily operations.</p>",
+            "summary": "The City of Maplewood was incorporated in 1887 and has grown into a thriving community of over 85,000 residents. Located in the heart of the region, Maplewood offers a unique blend of small-town charm"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-contact",
+          "title": "Contact the City of Maplewood",
+          "path": "/contact",
+          "body": {
+            "processed": "<h2>General Information</h2><p>City Hall is located at 200 Main Street, Maplewood. Our main phone number is (555) 234-5000.</p><h2>Office Hours</h2><p>Monday through Friday, 8:00 AM to 5:00 PM. Closed on weekends and city holidays.</p><h2>Emergency Services</h2><p>For emergencies, dial 911. For non-emergency police or fire, call (555) 234-5003.</p><h2>Report an Issue</h2><p>To report potholes, streetlight outages, code violations, or other non-emergency issues, please use our online reporting system or call (555) 234-5100.</p><h2>Public Records Requests</h2><p>Submit public records requests to the City Clerk's office at clerk@maplewood.gov or visit City Hall during business hours.</p>",
+            "summary": "General InformationCity Hall is located at 200 Main Street, Maplewood. Our main phone number is (555) 234-5000.Office HoursMonday through Friday, 8:00 AM to 5:00 PM. Closed on weekends and city holida"
+          }
+        }
+      }
+    }
+  }
+}

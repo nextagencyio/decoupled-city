@@ -1,0 +1,193 @@
+{
+  "data": {
+    "nodeOfficials": {
+      "__typename": "NodeOfficialConnection",
+      "nodes": [
+        {
+          "__typename": "NodeOfficial",
+          "id": "official-mayor",
+          "title": "Mayor Patricia Chen",
+          "path": "/officials/mayor-patricia-chen",
+          "body": {
+            "processed": "<p>Mayor Patricia Chen has served the City of Maplewood since 2020. She brings over 15 years of public service experience and is dedicated to transparent governance, sustainable development, and community engagement. Under her leadership, the city has invested heavily in infrastructure improvements and green initiatives.</p>",
+            "summary": "Mayor Patricia Chen has served the City of Maplewood since 2020. She brings over 15 years of public service experience and is dedicated to transparent governance, sustainable development, and communit"
+          },
+          "position": "Mayor",
+          "department": [
+            {
+              "id": "city-manager",
+              "name": "city-manager"
+            }
+          ],
+          "email": "mayor@maplewood.gov",
+          "phone": "(555) 234-5000",
+          "office": "City Hall, Suite 300",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Mayor Patricia Chen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeOfficial",
+          "id": "official-manager",
+          "title": "David Rodriguez",
+          "path": "/officials/city-manager-david-rodriguez",
+          "body": {
+            "processed": "<p>David Rodriguez serves as City Manager, overseeing the daily operations of all city departments. With a background in public administration and urban planning, he brings a strategic approach to municipal governance and a commitment to operational excellence.</p>",
+            "summary": "David Rodriguez serves as City Manager, overseeing the daily operations of all city departments. With a background in public administration and urban planning, he brings a strategic approach to munici"
+          },
+          "position": "City Manager",
+          "department": [
+            {
+              "id": "city-manager",
+              "name": "city-manager"
+            }
+          ],
+          "email": "drodriguez@maplewood.gov",
+          "phone": "(555) 234-5010",
+          "office": "City Hall, Suite 250",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "City Manager David Rodriguez",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeOfficial",
+          "id": "official-council-1",
+          "title": "Sarah Thompson",
+          "path": "/officials/council-member-sarah-thompson",
+          "body": {
+            "processed": "<p>Council Member Sarah Thompson represents District 1 on the Maplewood City Council. She is a longtime resident and advocate for neighborhood revitalization, affordable housing, and improved public transit. She chairs the Finance Committee and serves on the Public Works Committee.</p>",
+            "summary": "Council Member Sarah Thompson represents District 1 on the Maplewood City Council. She is a longtime resident and advocate for neighborhood revitalization, affordable housing, and improved public tran"
+          },
+          "position": "City Council Member, District 1",
+          "department": [
+            {
+              "id": "city-manager",
+              "name": "city-manager"
+            }
+          ],
+          "email": "sthompson@maplewood.gov",
+          "phone": "(555) 234-5020",
+          "office": "City Hall, Suite 210",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Council Member Sarah Thompson",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeOfficial",
+          "id": "official-fire-chief",
+          "title": "James Mitchell",
+          "path": "/officials/fire-chief-james-mitchell",
+          "body": {
+            "processed": "<p>Fire Chief James Mitchell has led the Maplewood Fire Department for over 8 years. A 25-year veteran of firefighting, Chief Mitchell has modernized the department's equipment and training programs while maintaining the highest standards of emergency response.</p>",
+            "summary": "Fire Chief James Mitchell has led the Maplewood Fire Department for over 8 years. A 25-year veteran of firefighting, Chief Mitchell has modernized the department's equipment and training programs whil"
+          },
+          "position": "Fire Chief",
+          "department": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "email": "jmitchell@maplewood.gov",
+          "phone": "(555) 234-5030",
+          "office": "Fire Station 1, 400 Elm Street",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Fire Chief James Mitchell",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

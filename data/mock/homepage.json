@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to City of Maplewood",
+          "path": "/homepage",
+          "heroTitle": "Serving Our Community",
+          "heroSubtitle": "Building a Better Maplewood Together",
+          "heroDescription": {
+            "processed": "<p>The City of Maplewood is committed to providing high-quality services, maintaining safe neighborhoods, and fostering a vibrant community for all residents.</p>",
+            "summary": "The City of Maplewood is committed to providing high-quality services, maintaining safe neighborhoods, and fostering a vibrant community for all residents."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-population",
+              "title": "",
+              "number": "85,000",
+              "label": "Residents"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-parks",
+              "title": "",
+              "number": "42",
+              "label": "City Parks"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-departments",
+              "title": "",
+              "number": "18",
+              "label": "Departments"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-services",
+              "title": "",
+              "number": "150+",
+              "label": "Online Services"
+            }
+          ],
+          "featuredDepartmentsTitle": "City Departments",
+          "ctaTitle": "How Can We Help?",
+          "ctaDescription": {
+            "processed": "<p>Have a question, concern, or need to report an issue? We are here to serve you. Reach out to our team for assistance.</p>",
+            "summary": "Have a question, concern, or need to report an issue? We are here to serve you. Reach out to our team for assistance."
+          },
+          "ctaPrimary": "Report an Issue",
+          "ctaSecondary": "Contact Us"
+        }
+      ]
+    }
+  }
+}

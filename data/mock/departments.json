@@ -1,0 +1,193 @@
+{
+  "data": {
+    "nodeDepartments": {
+      "__typename": "NodeDepartmentConnection",
+      "nodes": [
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-works",
+          "title": "Public Works",
+          "path": "/departments/public-works",
+          "body": {
+            "processed": "<p>The Department of Public Works maintains and improves the city's infrastructure, including roads, bridges, water systems, and stormwater management. Our team of engineers and field crews work year-round to keep Maplewood safe and functional.</p><h2>Key Responsibilities</h2><ul><li>Road maintenance and repair</li><li>Water and sewer systems</li><li>Stormwater management</li><li>Snow removal and street cleaning</li><li>Capital improvement projects</li></ul>",
+            "summary": "The Department of Public Works maintains and improves the city's infrastructure, including roads, bridges, water systems, and stormwater management. Our team of engineers and field crews work year-rou"
+          },
+          "phone": "(555) 234-5001",
+          "email": "publicworks@maplewood.gov",
+          "location": "200 Main Street, Suite 100",
+          "hours": "Monday - Friday, 7:00 AM - 4:00 PM",
+          "departmentCategory": [
+            {
+              "id": "public-works",
+              "name": "public-works"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+            "alt": "Public Works Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-parks-rec",
+          "title": "Parks & Recreation",
+          "path": "/departments/parks-recreation",
+          "body": {
+            "processed": "<p>The Parks & Recreation Department manages over 42 parks, community centers, athletic facilities, and recreational programs throughout Maplewood. We are dedicated to enhancing quality of life through accessible outdoor spaces and engaging programs for all ages.</p><h2>Facilities</h2><ul><li>Community centers and pools</li><li>Sports fields and courts</li><li>Nature trails and greenways</li><li>Playgrounds and splash pads</li><li>Senior activity centers</li></ul>",
+            "summary": "The Parks & Recreation Department manages over 42 parks, community centers, athletic facilities, and recreational programs throughout Maplewood. We are dedicated to enhancing quality of life through a"
+          },
+          "phone": "(555) 234-5002",
+          "email": "parks@maplewood.gov",
+          "location": "300 Oak Avenue",
+          "hours": "Monday - Friday, 8:00 AM - 5:00 PM",
+          "departmentCategory": [
+            {
+              "id": "parks-recreation",
+              "name": "parks-recreation"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=800&q=80",
+            "alt": "Parks and Recreation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-public-safety",
+          "title": "Public Safety",
+          "path": "/departments/public-safety",
+          "body": {
+            "processed": "<p>The Department of Public Safety oversees police, fire, and emergency services for the City of Maplewood. Our mission is to protect lives, property, and the rights of all people through professional law enforcement and emergency response.</p><h2>Divisions</h2><ul><li>Police Department</li><li>Fire Department</li><li>Emergency Management</li><li>Code Enforcement</li><li>Animal Control</li></ul>",
+            "summary": "The Department of Public Safety oversees police, fire, and emergency services for the City of Maplewood. Our mission is to protect lives, property, and the rights of all people through professional la"
+          },
+          "phone": "(555) 234-5003",
+          "email": "publicsafety@maplewood.gov",
+          "location": "150 Civic Center Drive",
+          "hours": "24/7 Emergency Services",
+          "departmentCategory": [
+            {
+              "id": "public-safety",
+              "name": "public-safety"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
+            "alt": "Public Safety Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-community-dev",
+          "title": "Community Development",
+          "path": "/departments/community-development",
+          "body": {
+            "processed": "<p>The Community Development Department guides the physical growth and revitalization of Maplewood through planning, zoning, building inspection, and economic development initiatives. We work to create a sustainable, livable community.</p><h2>Services</h2><ul><li>Building permits and inspections</li><li>Zoning and land use planning</li><li>Historic preservation</li><li>Economic development</li><li>Housing programs</li></ul>",
+            "summary": "The Community Development Department guides the physical growth and revitalization of Maplewood through planning, zoning, building inspection, and economic development initiatives. We work to create a"
+          },
+          "phone": "(555) 234-5004",
+          "email": "development@maplewood.gov",
+          "location": "200 Main Street, Suite 200",
+          "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+          "departmentCategory": [
+            {
+              "id": "community-development",
+              "name": "community-development"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+            "alt": "Community Development",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

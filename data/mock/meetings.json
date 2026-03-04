@@ -1,0 +1,158 @@
+{
+  "data": {
+    "nodeMeetings": {
+      "__typename": "NodeMeetingConnection",
+      "nodes": [
+        {
+          "__typename": "NodeMeeting",
+          "id": "meeting-council-march",
+          "title": "City Council Regular Meeting - March 2026",
+          "path": "/meetings/city-council-march-2026",
+          "body": {
+            "processed": "<p>Regular meeting of the Maplewood City Council. The agenda includes the FY2027 budget discussion, updates on the Main Street revitalization project, and a public hearing on proposed zoning changes in the downtown district.</p><h2>Agenda Highlights</h2><ul><li>Approval of previous meeting minutes</li><li>FY2027 budget first reading</li><li>Main Street project update presentation</li><li>Public hearing: Downtown zoning amendment</li><li>Resolution on park improvement bonds</li><li>Public comment period</li></ul>",
+            "summary": "Regular meeting of the Maplewood City Council. The agenda includes the FY2027 budget discussion, updates on the Main Street revitalization project, and a public hearing on proposed zoning changes in t"
+          },
+          "meetingDate": {
+            "timestamp": 1773874800
+          },
+          "endDate": {
+            "timestamp": 1773885600
+          },
+          "location": "City Hall Council Chambers, 200 Main Street",
+          "meetingType": [
+            {
+              "id": "city-council",
+              "name": "city-council"
+            }
+          ],
+          "agendaUrl": "https://maplewood.gov/agendas/council-march-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&q=80",
+            "alt": "City Council Meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMeeting",
+          "id": "meeting-planning",
+          "title": "Planning Commission Meeting - April 2026",
+          "path": "/meetings/planning-commission-april-2026",
+          "body": {
+            "processed": "<p>The Planning Commission will review several development proposals, including a mixed-use project on Commerce Boulevard and a residential subdivision in the Northfield area. Public input is encouraged on all agenda items.</p><h2>Items for Review</h2><ul><li>Site plan review: Commerce Boulevard mixed-use development</li><li>Preliminary plat: Northfield Estates subdivision</li><li>Variance request: 450 Oak Street setback modification</li><li>Comprehensive plan amendment discussion</li></ul>",
+            "summary": "The Planning Commission will review several development proposals, including a mixed-use project on Commerce Boulevard and a residential subdivision in the Northfield area. Public input is encouraged "
+          },
+          "meetingDate": {
+            "timestamp": 1775692800
+          },
+          "endDate": {
+            "timestamp": 1775700000
+          },
+          "location": "City Hall Conference Room A, 200 Main Street",
+          "meetingType": [
+            {
+              "id": "planning-commission",
+              "name": "planning-commission"
+            }
+          ],
+          "agendaUrl": "https://maplewood.gov/agendas/planning-april-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+            "alt": "Planning Commission Meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMeeting",
+          "id": "meeting-town-hall",
+          "title": "Spring Community Town Hall",
+          "path": "/meetings/town-hall-spring-2026",
+          "body": {
+            "processed": "<p>Join Mayor Chen and city staff for a community town hall meeting to discuss priorities for the upcoming year. Topics include infrastructure improvements, public safety initiatives, and the new city parks master plan. Light refreshments will be provided.</p><h2>Discussion Topics</h2><ul><li>Infrastructure investment priorities</li><li>Community policing initiatives</li><li>Parks master plan overview</li><li>Open question and answer session</li></ul>",
+            "summary": "Join Mayor Chen and city staff for a community town hall meeting to discuss priorities for the upcoming year. Topics include infrastructure improvements, public safety initiatives, and the new city pa"
+          },
+          "meetingDate": {
+            "timestamp": 1776900600
+          },
+          "endDate": {
+            "timestamp": 1776907800
+          },
+          "location": "Maplewood Community Center, 500 Maple Drive",
+          "meetingType": [
+            {
+              "id": "town-hall",
+              "name": "town-hall"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Spring Community Town Hall",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

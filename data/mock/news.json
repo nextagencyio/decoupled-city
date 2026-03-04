@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-road-project",
+          "title": "Main Street Renovation Project Breaks Ground",
+          "path": "/news/main-street-renovation",
+          "body": {
+            "processed": "<p>The City of Maplewood has officially broken ground on the $12 million Main Street renovation project. The project will transform the downtown corridor with new sidewalks, bike lanes, improved lighting, and upgraded water infrastructure.</p><p>\"This project represents our commitment to creating a vibrant, walkable downtown that serves residents and attracts businesses,\" said Mayor Patricia Chen at the groundbreaking ceremony.</p><p>Construction is expected to take 18 months, with phased closures to minimize disruption to local businesses. The project is funded through a combination of federal infrastructure grants and city bonds.</p>",
+            "summary": "The City of Maplewood has officially broken ground on the $12 million Main Street renovation project. The project will transform the downtown corridor with new sidewalks, bike lanes, improved lighting"
+          },
+          "category": [
+            {
+              "id": "infrastructure",
+              "name": "infrastructure"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=800&q=80",
+            "alt": "Main Street Renovation Project",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-budget",
+          "title": "City Releases FY2027 Proposed Budget",
+          "path": "/news/fy2027-budget-proposal",
+          "body": {
+            "processed": "<p>City Manager David Rodriguez has presented the proposed FY2027 budget of $142 million to the City Council. The budget prioritizes public safety, infrastructure maintenance, and parks improvements while maintaining the current tax rate.</p><p>Key highlights include funding for 12 new police officers, a $5 million road resurfacing program, and $3.2 million for the new Riverside Park renovation. Public comment on the budget will be accepted through April 30.</p><p>Budget documents are available for review at City Hall, the public library, and online at the city website.</p>",
+            "summary": "City Manager David Rodriguez has presented the proposed FY2027 budget of $142 million to the City Council. The budget prioritizes public safety, infrastructure maintenance, and parks improvements whil"
+          },
+          "category": [
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+            "alt": "FY2027 Budget Proposal",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-park-opening",
+          "title": "Riverside Park Grand Opening Celebration",
+          "path": "/news/riverside-park-grand-opening",
+          "body": {
+            "processed": "<p>The City of Maplewood invites all residents to the grand opening celebration of the newly renovated Riverside Park on Saturday, May 15. The $3.2 million renovation includes new playgrounds, a splash pad, walking trails, and an outdoor amphitheater.</p><p>The celebration will feature live music, food trucks, kids activities, and guided tours of the new facilities. Free parking is available at the community center lot.</p>",
+            "summary": "The City of Maplewood invites all residents to the grand opening celebration of the newly renovated Riverside Park on Saturday, May 15. The $3.2 million renovation includes new playgrounds, a splash p"
+          },
+          "category": [
+            {
+              "id": "community-events",
+              "name": "community-events"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=800&q=80",
+            "alt": "Riverside Park Grand Opening",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
