@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-population",
               "title": "",
-              "number": "85,000",
+              "number": "85,000", "value": "85,000",
               "label": "Residents"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-parks",
               "title": "",
-              "number": "42",
+              "number": "42", "value": "42",
               "label": "City Parks"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-departments",
               "title": "",
-              "number": "18",
+              "number": "18", "value": "18",
               "label": "Departments"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-services",
               "title": "",
-              "number": "150+",
+              "number": "150+", "value": "150+",
               "label": "Online Services"
             }
           ],
