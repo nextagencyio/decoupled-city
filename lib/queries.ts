@@ -51,7 +51,7 @@ export const GET_DEPARTMENTS = gql`
           location
           hours
           departmentCategory {
-            ... on TermInterface {
+            ... on TermDepartment {
               id
               name
             }
@@ -91,7 +91,7 @@ export const GET_DEPARTMENT_BY_PATH = gql`
             location
             hours
             departmentCategory {
-              ... on TermInterface {
+              ... on TermDepartment {
                 id
                 name
               }
@@ -129,7 +129,7 @@ export const GET_OFFICIALS = gql`
           }
           position
           department {
-            ... on TermInterface {
+            ... on TermDepartment {
               id
               name
             }
@@ -169,7 +169,7 @@ export const GET_OFFICIAL_BY_PATH = gql`
             }
             position
             department {
-              ... on TermInterface {
+              ... on TermDepartment {
                 id
                 name
               }
@@ -210,7 +210,7 @@ export const GET_SERVICES = gql`
             summary
           }
           department {
-            ... on TermInterface {
+            ... on TermDepartment {
               id
               name
             }
@@ -249,7 +249,7 @@ export const GET_SERVICE_BY_PATH = gql`
               processed
             }
             department {
-              ... on TermInterface {
+              ... on TermDepartment {
                 id
                 name
               }
@@ -297,7 +297,7 @@ export const GET_MEETINGS = gql`
           }
           location
           meetingType {
-            ... on TermInterface {
+            ... on TermMeetingType {
               id
               name
             }
@@ -341,7 +341,7 @@ export const GET_MEETING_BY_PATH = gql`
             }
             location
             meetingType {
-              ... on TermInterface {
+              ... on TermMeetingType {
                 id
                 name
               }
@@ -395,7 +395,7 @@ export const GET_NEWS = gql`
             }
           }
           category {
-            ... on TermInterface {
+            ... on TermNewsCategory {
               id
               name
             }
@@ -435,7 +435,7 @@ export const GET_NEWS_BY_PATH = gql`
               }
             }
             category {
-              ... on TermInterface {
+              ... on TermNewsCategory {
                 id
                 name
               }
@@ -473,7 +473,7 @@ export const GET_NODE_BY_PATH = gql`
             location
             hours
             departmentCategory {
-              ... on TermInterface {
+              ... on TermDepartment {
                 id
                 name
               }
@@ -500,7 +500,7 @@ export const GET_NODE_BY_PATH = gql`
             }
             position
             department {
-              ... on TermInterface {
+              ... on TermDepartment {
                 id
                 name
               }
@@ -529,7 +529,7 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             department {
-              ... on TermInterface {
+              ... on TermDepartment {
                 id
                 name
               }
@@ -565,7 +565,7 @@ export const GET_NODE_BY_PATH = gql`
             }
             location
             meetingType {
-              ... on TermInterface {
+              ... on TermMeetingType {
                 id
                 name
               }
@@ -583,7 +583,7 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             category {
-              ... on TermInterface {
+              ... on TermNewsCategory {
                 id
                 name
               }
@@ -630,7 +630,7 @@ export const GET_FEATURED_DEPARTMENTS = gql`
         ... on NodeDepartment {
           phone
           departmentCategory {
-            ... on TermInterface {
+            ... on TermDepartment {
               id
               name
             }
@@ -677,7 +677,7 @@ export const GET_FEATURED_NEWS = gql`
             }
           }
           category {
-            ... on TermInterface {
+            ... on TermNewsCategory {
               id
               name
             }
@@ -703,7 +703,7 @@ export const GET_UPCOMING_MEETINGS = gql`
           }
           location
           meetingType {
-            ... on TermInterface {
+            ... on TermMeetingType {
               id
               name
             }

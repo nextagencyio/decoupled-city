@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
+import { useQuery, gql as gqlParse } from '@apollo/client'
 import { GET_FEATURED_DEPARTMENTS } from '@/lib/queries'
 import { DrupalHomepage, DrupalDepartment } from '@/lib/types'
 import { Phone, ArrowRight, Building } from 'lucide-react'
@@ -18,7 +18,7 @@ interface FeaturedDepartmentsData {
 }
 
 export default function DepartmentsPreview({ homepageContent }: DepartmentsPreviewProps) {
-  const { data, loading, error } = useQuery<FeaturedDepartmentsData>(GET_FEATURED_DEPARTMENTS)
+  const { data, loading, error } = useQuery<FeaturedDepartmentsData>(gqlParse(GET_FEATURED_DEPARTMENTS))
 
   const departments = data?.nodeDepartments?.nodes || []
   const sectionTitle = homepageContent?.featuredDepartmentsTitle || 'City Departments'

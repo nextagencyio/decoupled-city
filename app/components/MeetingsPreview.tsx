@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
+import { useQuery, gql as gqlParse } from '@apollo/client'
 import { GET_UPCOMING_MEETINGS } from '@/lib/queries'
 import { DrupalMeeting } from '@/lib/types'
 import { MapPin, ArrowRight, Calendar } from 'lucide-react'
@@ -22,7 +22,7 @@ function formatMeetingDate(timestamp: number): { month: string; day: string; tim
 }
 
 export default function MeetingsPreview() {
-  const { data, loading, error } = useQuery<UpcomingMeetingsData>(GET_UPCOMING_MEETINGS)
+  const { data, loading, error } = useQuery<UpcomingMeetingsData>(gqlParse(GET_UPCOMING_MEETINGS))
 
   const meetings = data?.nodeMeetings?.nodes || []
 

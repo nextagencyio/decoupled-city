@@ -79,8 +79,11 @@ export function getServerApolloClient(requestHeaders: Headers): ApolloClient<any
     link: authLink.concat(httpLink),
     cache: new InMemoryCache({
       possibleTypes: {
-        TermInterface: ['TermDepartment', 'TermCategory', 'TermTags'],
-        NodeInterface: ['NodeProgram', 'NodeFaculty', 'NodeEvent', 'NodeNews', 'NodePage', 'NodeHomepage'],
+        TermInterface: ['TermDepartment', 'TermMeetingType', 'TermNewsCategory', 'TermServiceCategory', 'TermTag'],
+        NodeInterface: ['NodeDepartment', 'NodeHomepage', 'NodeMeeting', 'NodeNews', 'NodeOfficial', 'NodePage', 'NodeService'],
+        ParagraphInterface: ['ParagraphStatItem'],
+        TermUnion: ['TermDepartment', 'TermMeetingType', 'TermNewsCategory', 'TermServiceCategory', 'TermTag'],
+        ParagraphUnion: ['ParagraphStatItem'],
       },
     }),
     defaultOptions: {
@@ -111,8 +114,11 @@ const authLink = setContext((_, { headers }) => {
 
 const possibleTypesConfig = {
   possibleTypes: {
-    TermInterface: ['TermDepartment', 'TermCategory', 'TermTags'],
-    NodeInterface: ['NodeProgram', 'NodeFaculty', 'NodeEvent', 'NodeNews', 'NodePage', 'NodeHomepage'],
+    TermInterface: ['TermDepartment', 'TermMeetingType', 'TermNewsCategory', 'TermServiceCategory', 'TermTag'],
+    NodeInterface: ['NodeDepartment', 'NodeHomepage', 'NodeMeeting', 'NodeNews', 'NodeOfficial', 'NodePage', 'NodeService'],
+    ParagraphInterface: ['ParagraphStatItem'],
+    TermUnion: ['TermDepartment', 'TermMeetingType', 'TermNewsCategory', 'TermServiceCategory', 'TermTag'],
+    ParagraphUnion: ['ParagraphStatItem'],
   },
 }
 
